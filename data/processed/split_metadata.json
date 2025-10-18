@@ -1,0 +1,55 @@
+{
+  "train_samples": 3731,
+  "test_samples": 1600,
+  "features": [
+    "PA_mean",
+    "PA_std",
+    "WW_mean",
+    "WW_std",
+    "SW_mean",
+    "SW_std",
+    "NW_mean",
+    "NW_std",
+    "VWA",
+    "MWA",
+    "W/B",
+    "VRC",
+    "MRC",
+    "Gender",
+    "Age",
+    "US_born",
+    "HH_Income",
+    "HH_size",
+    "Edu_level"
+  ],
+  "train_balance": {
+    "total_samples": 3731,
+    "class_counts": {
+      "0.0": 2974,
+      "1.0": 757
+    },
+    "class_proportions": {
+      "0.0": 0.7971053336906996,
+      "1.0": 0.20289466630930045
+    },
+    "majority_class": 0.0,
+    "minority_class": 1.0,
+    "imbalance_ratio": 3.928665785997358
+  },
+  "test_balance": {
+    "total_samples": 1600,
+    "class_counts": {
+      "0.0": 1276,
+      "1.0": 324
+    },
+    "class_proportions": {
+      "0.0": 0.7975,
+      "1.0": 0.2025
+    },
+    "majority_class": 0.0,
+    "minority_class": 1.0,
+    "imbalance_ratio": 3.9382716049382718
+  },
+  "test_size": 0.3,
+  "random_state": 42
+}
