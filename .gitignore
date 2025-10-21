@@ -1,0 +1,27 @@
+# Large files that exceed GitHub's 100MB limit
+Original Datasets/PAXHR_G.xpt
+Pre-processed_data/PAXHR_G.csv
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# macOS system files
+.DS_Store
+
+# IDE files
+.vscode/
+.idea/
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+*.temp
