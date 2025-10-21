@@ -1,0 +1,68 @@
+PROMPT ENGINEERING EVALUATION SUMMARY
+=============================================
+
+Model: llama3.1:8b
+  Template: basic
+    Accuracy: 0.0000
+    Precision: 0.0000
+    Recall: 0.0000
+    F1-Score: 0.0000
+    Success Rate: 0.00%
+
+  Template: medical_context
+    Accuracy: 0.0000
+    Precision: 0.0000
+    Recall: 0.0000
+    F1-Score: 0.0000
+    Success Rate: 0.00%
+
+  Template: step_by_step
+    Accuracy: 0.0000
+    Precision: 0.0000
+    Recall: 0.0000
+    F1-Score: 0.0000
+    Success Rate: 0.00%
+
+  Template: few_shot
+    Accuracy: 0.0000
+    Precision: 0.0000
+    Recall: 0.0000
+    F1-Score: 0.0000
+    Success Rate: 0.00%
+
+Model: mistral:7b
+  Template: basic
+    Accuracy: 0.0000
+    Precision: 0.0000
+    Recall: 0.0000
+    F1-Score: 0.0000
+    Success Rate: 0.00%
+
+  Template: medical_context
+    Accuracy: 0.0000
+    Precision: 0.0000
+    Recall: 0.0000
+    F1-Score: 0.0000
+    Success Rate: 0.00%
+
+  Template: step_by_step
+    Accuracy: 0.1700
+    Precision: 0.1700
+    Recall: 1.0000
+    F1-Score: 0.2906
+    Success Rate: 100.00%
+
+  Template: few_shot
+    Accuracy: 0.0000
+    Precision: 0.0000
+    Recall: 0.0000
+    F1-Score: 0.0000
+    Success Rate: 0.00%
+
+BEST TEMPLATES PER MODEL:
+------------------------------
+llama3.1:8b: basic (F1: 0.0000)
+mistral:7b: step_by_step (F1: 0.2906)
+
+OVERALL BEST: mistral:7b with step_by_step
+Best F1-Score: 0.2906

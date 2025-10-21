@@ -1,0 +1,200 @@
+{
+  "prompt_engineering": {
+    "llama3.1:8b": {
+      "research_minimal": {
+        "accuracy": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "mcc": 0.0,
+        "confusion_matrix": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "sample_size": 20,
+        "valid_predictions": 0,
+        "success_rate": 0.0
+      },
+      "classification_direct": {
+        "accuracy": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "mcc": 0.0,
+        "confusion_matrix": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "sample_size": 20,
+        "valid_predictions": 0,
+        "success_rate": 0.0
+      },
+      "educational_survey": {
+        "accuracy": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "mcc": 0.0,
+        "confusion_matrix": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "sample_size": 20,
+        "valid_predictions": 0,
+        "success_rate": 0.0
+      },
+      "textual_profile": {
+        "accuracy": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "mcc": 0.0,
+        "confusion_matrix": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "sample_size": 20,
+        "valid_predictions": 0,
+        "success_rate": 0.0
+      }
+    },
+    "mistral:7b": {
+      "research_minimal": {
+        "accuracy": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "mcc": 0.0,
+        "confusion_matrix": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "sample_size": 20,
+        "valid_predictions": 0,
+        "success_rate": 0.0
+      },
+      "classification_direct": {
+        "accuracy": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "mcc": 0.0,
+        "confusion_matrix": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "sample_size": 20,
+        "valid_predictions": 0,
+        "success_rate": 0.0
+      },
+      "educational_survey": {
+        "accuracy": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "mcc": 0.0,
+        "confusion_matrix": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "sample_size": 20,
+        "valid_predictions": 0,
+        "success_rate": 0.0
+      },
+      "textual_profile": {
+        "accuracy": 0.75,
+        "precision": 0.6666666666666666,
+        "recall": 0.6666666666666666,
+        "f1_score": 0.6666666666666666,
+        "mcc": 0.4666666666666667,
+        "confusion_matrix": [
+          [
+            4,
+            1
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "sample_size": 20,
+        "valid_predictions": 8,
+        "success_rate": 0.4,
+        "template_name": "textual_profile",
+        "predictions": [
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          1,
+          0
+        ],
+        "true_labels": [
+          1,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0
+        ]
+      }
+    }
+  },
+  "few_shot": {
+    "llama3.1:8b": {
+      "error": "'str' object has no attribute 'get'"
+    },
+    "mistral:7b": {
+      "error": "'str' object has no attribute 'get'"
+    }
+  },
+  "rag": {
+    "error": "'PA_mean'"
+  }
+}

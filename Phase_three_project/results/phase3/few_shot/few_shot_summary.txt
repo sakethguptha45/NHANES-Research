@@ -1,0 +1,19 @@
+FEW-SHOT LEARNING EVALUATION SUMMARY
+========================================
+
+Model: llama3.1:8b
+  Accuracy: 0.0000
+  Precision: 0.0000
+  Recall: 0.0000
+  F1-Score: 0.0000
+  Success Rate: 0.00%
+
+Model: mistral:7b
+  Accuracy: 0.0000
+  Precision: 0.0000
+  Recall: 0.0000
+  F1-Score: 0.0000
+  Success Rate: 0.00%
+
+BEST MODEL: llama3.1:8b
+Best F1-Score: 0.0000
